@@ -1,1 +1,0 @@
-Printing pathname of dir
