@@ -3,8 +3,11 @@
 
 import requests
 
+
 def top_ten(subreddit):
     """Query Reddit and print titles of the first 10 hot posts"""
+
+
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     
     # Set a custom User-Agent to avoid too many requests error
